@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Soul Society</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="dist/css/style.css" rel="stylesheet">
+
+    <!-- bjqs.css contains the *essential* css needed for the slider to work -->
+    <link rel="stylesheet" href="dist/css/bjqs.css">
+
+    <!-- Prettier fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="dist/css/slider.css">
+
+    <!-- load jQuery and the plugin -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="dist/js/bjqs-1.3.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Soul Society</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav nav_links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="members.html">Members</a></li>
+            <li class="active"><a href="pictures.html">Pictures/Video</a></li>
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shows <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="shows.html">Past Shows</a></li>
+                <li><a href="videos.html">Videos</a></li>
+              </ul>
+            </li>-->
+          </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+            <button class="btn btn-danger btn-lg book_us_button">
+            <li><a href="/contact.html"><i class="glyphicon glyphicon-white glyphicon-envelope"></i> &#160;Contact Us</a></li>
+            </button>
+          </ul> -->
+          <ul class="nav navbar-nav navbar-right">
+            <a href="/contact.html">
+              <button class="btn btn-danger btn-lg book_us_button">
+                <i class="glyphicon glyphicon-white glyphicon-envelope"></i>
+                &#160;Contact Us
+              </button>
+            </a>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    
+
+    <div class="container main_body">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-12">
+          
+          <div id="container">
+            <div id="banner-fade">
+              <ul class="bjqs">
+                <li><img src="dist/images/pics/photo_8_crop.jpg"></li>
+                <li><img src="dist/images/pics/photo_10_crop.jpg"></li>
+                <li><img src="dist/images/pics/944394_527871270603653_798146964_n.jpg"></li>
+              </ul>
+            </div>
+
+            <script class="secret-source">
+              jQuery(document).ready(function($) {
+
+                $('#banner-fade').bjqs({
+                  height      : 900,
+                  width       : 1200,
+                  responsive  : true,
+                  showmarkers : false
+                });
+
+              });
+            </script>
+          </div>
+
+        </div>
+      </div>
+
+      <hr>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+    <script src="js/carousel.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+
+    <!--<script type="text/javascript">
+      $(function(){
+         $('#picCarousel').carousel();
+      });
+    </script>-->
+
+    
+
+  </body>
+</html>
