@@ -1,1 +1,1 @@
-<?php include_once(bootstrap-3.0.0/home.html); ?>
+<?php include_once(bootstrap-3.0.0/index.html); ?>
